@@ -1,0 +1,18 @@
+# Environment variables (contains secrets)
+.env
+
+# Runtime data directories
+data/
+postgres_data/
+redis_data/
+caddy_data/
+caddy_config/
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
