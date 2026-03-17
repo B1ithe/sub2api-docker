@@ -45,7 +45,7 @@
 		flush_interval -1
 
 		transport http {
-			versions h2c h1
+			versions h2c 1.1
 			keepalive 120s
 			keepalive_idle_conns 256
 			read_buffer 16KB
