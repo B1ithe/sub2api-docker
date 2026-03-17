@@ -55,6 +55,7 @@ services:
       - SERVER_PORT=8080
       - SERVER_MODE=${SERVER_MODE:-release}
       - RUN_MODE=${RUN_MODE:-standard}
+      - SERVER_H2C_ENABLED=true
 
       # Database
       - DATABASE_HOST=postgres
